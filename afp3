@@ -1,0 +1,47 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <title>lists tables and hyperlinks</title>
+        </head>
+        <body bgcolor="grey">
+            <table border="10" bgcolor="ivory" >
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Grade</th> 
+                </tr>
+                <th bgcolor="red">Ryan</th>
+                <th bgcolor="red">12</th>
+                <th bgcolor="red">6</th>
+                <tr>
+                    <th bgcolor="blue">Alex</th> 
+                    <th bgcolor="blue">12</th>  
+                    <th bgcolor="blue">6</th>
+                </tr>
+                <tr>
+                    <th bgcolor="green">Nate</th>
+                    <th bgcolor="green">11</th>
+                    <th bgcolor="green">5</th>
+                </tr>
+                <tr>
+                    <th bgcolor="pink">Sarah</th>
+                    <th bgcolor="pink">12</th>
+                    <th bgcolor="pink">6</th>
+                </tr>
+                <tr>
+                    <th bgcolor="purple">Eva</th>
+                    <th bgcolor="purple">11</th>
+                    <th bgcolor="purple">5</th>
+                </tr>
+            </table>
+            <a href="https://sites.google.com/education.nsw.gov.au/machu-picchu-/home?authuser=4">
+                Visit this site</a>
+                <ol type="I">
+                    <li>Ryan</li>
+                    <li>Alex</li>
+                    <li>Nate</li>
+                    <li>Sarah</li>
+                    <li>Eva</li>
+                </ol>
+        </body>
+        </html>
