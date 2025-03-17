@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <title> My school </title>
+    </head>
+    <body bgcolor="grey">
+
+<h1>Lambton Public School</h1> <bl>
+<p><b>My school is locsted in <i> NSW, Australia </i></b></p><bl></bl>
+<p><b>My school has an amazing band </b></p>
+<p><b>My school has great diversity of all cultures</b></p>
+<p><b>My school has caring teachers and great friends</b></p>
+<p><b>My school is very entertaining</b></p>
+<a href="https://lambton-p.schools.nsw.gov.au/">
+    Visit this site to learn about my school</a><br>
+    
+        <img src="IMG_3314.JPG.thumb.1280.1280.jpg" width="400">
+      <iframe src="https://player.vimeo.com/video/491821024?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" ></iframe> 
+
+    </body>
+    </html>
