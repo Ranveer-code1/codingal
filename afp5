@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My cars portfolio </title>
+    </head>
+    <body bgcolor="silver">
+        <header>
+            <center>
+                <h1>My Supercar Portfolios</h1>
+                <nav>
+                    <a href="#">Ferrari F60 Enzo</a> &nbsp; &nbsp; &nbsp;
+                    <a href="#">Pagani Zonda R</a>  &nbsp; &nbsp; &nbsp;
+                    <a href="#">Bugatti Veyron Super Sport</a> &nbsp; &nbsp; &nbsp;
+                    <a href="#">McLaren Senna</a> &nbsp; &nbsp; &nbsp;
+                    <a href="#">Aston Martin Valkyrie </a> &nbsp; &nbsp; &nbsp;
+                </nav>
+            </center>
+            
+        </header>
+        <hr color="black">
+        <section>
+            <article>
+                <h2>Ferrari F60 Enzo</h2>
+                <p>The Ferrari, officially marketed as Enzo Ferrari, is a mid-engine sports car manufactured by Italian automobile manufacturer Ferrari and named after the company's founder, Enzo Ferrari. It was developed in 2002 using Formula One technology, such as a carbon-fibre body, Formula One-style automated-shift manual transmission, and carbon fibre-reinforced silicon carbide ceramic composite disc brakes.</p>
+                <figure>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Orange_Enzo_Ferrari_%287191948164%29.jpg/280px-Orange_Enzo_Ferrari_%287191948164%29.jpg">
+                    <figcaption> Ferrari F60 Enzo</figcaption>
+                </figure>
+            </article>
+            <hr color="red"
+            <article>
+                <h2>Pagani Zonda R</h2>
+                <p>The Pagani Zonda R is a track day car developed and manufactured by Italian sports car manufacturer Pagani. It debuted at the 2007 Geneva Motor Show, using the 6.0-litre GT 112 engine sourced from the racing version of the Mercedes-Benz CLK-GTR. The Zonda R's competition lies with track-based cars, such as the Ferrari FXX and Maserati MC12 Corse rather than the original Zonda's road competitors as it is not road-legal.</p>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Pagani_Zonda_R_-_Flickr_-_The_Car_Spy_%281%29.jpg/280px-Pagani_Zonda_R_-_Flickr_-_The_Car_Spy_%281%29.jpg">
+                <figcaption>Pagani Zonda R</figcaption>
+            </article>
+            <article>
+                <h2>Bugatti Veyron Super Sport</h2>
+                <p>The Super Sport version of the Veyron is one of the fastest street-legal production cars in the world, with a top speed of 431.072 km/h (267.856 mph). The Veyron Grand Sport Vitesse was the fastest roadster in the world, reaching an averaged top speed of 408.84 km/h (254.04 mph) in a test on 6 April 2013. The production car speed record was later taken by another Bugatti, the Chiron, and then often changed hands for a while.</p>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Bugatti_Veyron_16.4_%E2%80%93_Frontansicht_%281%29%2C_5._April_2012%2C_D%C3%BCsseldorf.jpg/280px-Bugatti_Veyron_16.4_%E2%80%93_Frontansicht_%281%29%2C_5._April_2012%2C_D%C3%BCsseldorf.jpg">
+                <figcaption>Bugatti Veyron SS</figcaption>
+            </article>
+            <hr color="black"
+            <article>
+                <h2>McLaren Senna</h2>
+                <p>The McLaren Senna is a limited-production mid-engined sports car manufactured by McLaren Automotive. The car is the third addition in the McLaren Ultimate Series, joining the F1 and the P1; however, it is not a direct successor to either of the cars. The Senna was unveiled online by the company on 10 December 2017, with the official unveiling taking place at the 2018 Geneva Motor Show.</p>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/McLaren_Senna_IMG_3279.jpg/280px-McLaren_Senna_IMG_3279.jpg">
+                <figcaption>McLaren Senna</figcaption>
+            </article>
+            <hr color="black">
+            <article>
+                <h2>Aston Martin Valkyrie</h2>
+                <p>The Aston Martin Valkyrie is a limited production hybrid sports car collaboratively built by British automobile manufacturers Aston Martin, Red Bull Racing Advanced Technologies and several other parties.</p>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Aston_Martin_Valkyrie_Verification_Prototype_001_Genf_2019_1Y7A5569.jpg/330px-Aston_Martin_Valkyrie_Verification_Prototype_001_Genf_2019_1Y7A5569.jpg"
+                <figcaption>Aston Martin Valkyrie</figcaption>
+            </article>
+        </section>
+        <hr color="black">
+        <footer>
+            <h3>Contact Information</h3>
+            <h4>Email-ranveeer.arora112@education.nsw.gov.au</h4>
+            <h4>Mobile - ##########</h4>
+            <h5>Copyright - All rights reserved by Ranveer Arora on 2025 17.3.2025</h5>
+        </footer>
+    </body>
+</html>
