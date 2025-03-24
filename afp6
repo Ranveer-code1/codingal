@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Supercar invoice form</title>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <ledgend><h1>Supercars Baground Check</h1></ledgend>
+                <label>Name</label><br>
+                <input type="text" placeholder="Enter here"><br>
+                <label>Email</label><br>
+                <input type="email" placeholder="Enter here"><br>
+                <label>Address</label><br>
+                <input type="text" placeholder="Enter here"><br>
+                <label>Credit card no.</label><br>
+                <input type="password" placeholder="Enter here"><br>
+                <label>Passowrd</label><br>
+                <input type="password" placeholder="Enter here"><br>
+                <label>Select your DOB</label><br>
+                <input type="date"><br>
+                <label>Select your gender</label><br>
+            <input type="radio"name="Gender">Male<br>
+            <input type="radio"name="Gender">Female<br>
+            <input type="radio"name="Gender">Other<br>
+            <label>Select your desired supercar</label><br>
+            <input type="checkbox">Pagani Zonda R<br>
+            <input type="checkbox">Ferrari Enzo<br>
+            <input type="checkbox">Bugatti Veyron SS<br>
+            <input type="checkbox">Koenigsegg Jesko<br>
+            <input type="checkbox">McLaren P1<br>
+            <input type="checkbox">Lamborghini Sesto Elemento. <br>
+            <input type="submit">
+            <input type="button"value=Cancel>
+            <p>For any queries contact our CEO at- ranveer.arora112@education.nsw.gov.au</p>
+
+                
+                
+
+            </fieldset>
+        </form>
+    </body>
+</html>
