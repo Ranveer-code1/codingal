@@ -1,0 +1,56 @@
+<doctype html>
+    <html>
+        <head>
+            <title> Head styling</title>
+            <style>
+                body{
+                    background-color: rgb(93, 74, 84);
+                }
+                h1{
+                    color: rgb(1, 102, 255);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            
+            text-decoration: underline;
+            text-transform:capitalize;
+        
+                }
+                h2{
+                    color: rgb(1, 255, 5);
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            
+            text-decoration:line-through;
+            text-transform: lowercase;
+            transform: rotateX(180deg);
+
+                }
+                h3{
+                    color: rgb(247, 1, 255);
+            font-family:monospace;
+           
+            text-decoration:overline;
+            text-transform:none;
+            transform: rotateX(300deg);
+            }
+                h4{
+                    color: rgb(1, 217, 255);
+            font-family: cursive;
+            text-decoration:line-through underline overline;
+            text-transform: lowercase;
+                }
+                h5{
+                    color: rgb(255, 174, 0);
+            font-family:sans-serif;
+            
+                }
+
+            </style>
+        </head>
+        <body>
+            <h1>3D printers</h1>
+            <h2>3D printes</h2>
+            <h3>3D printes</h3>
+            <h4>3D printes</h4>
+            <h5>3D printes</h5>
+            <h6>3D printes</h6>
+        </body>
+    </html>
