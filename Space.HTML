@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space exploration club</title>
+    <style>
+        body{
+            background-color: black;
+            color: whitesmoke;
+            font-family:monospace;
+
+        }
+        h1{
+            color: goldenrod;
+
+        }
+        a{
+            text-decoration: none;
+            color: lightgoldenrodyellow;
+        }
+
+        a:hover{
+            color:darkcyan
+        }
+        ul>li{
+            font-weight: bold;
+            color: darkcyan;
+        }
+        ul li:hover{
+           color: violet;
+        }
+        p{
+color:darkorange;
+
+        }
+        p:not(:first-of-type){
+            text-decoration: underline;
+
+        }
+        /* ::before Pseudo-element */
+ul li::before {
+    content: "🚀 ";
+}
+ul{
+    list-style: none;
+}
+/* ::after Pseudo-element */
+a::after {
+    content: " 🌌";
+}
+p::first-letter{
+    font-size:200%;
+    color: blue;
+}
+    </style>
+</head>
+<body>
+    <h1>Space Exploration Club</h1>
+    <ul>
+        <li>Mars rovers</li>
+        <li>Moon missions</li>
+        <li>Internation Space Station(ISS)</li>
+        <li>Black Holes</li>
+        
+    </ul>
+    <p>Space exploration has awlays captivated human imagination</p>
+    <P>Its a journey to the uncharted</P><br>
+    <a href="#">Join our missions-</a>
+    <a href="#">Space news-</a>
+    <a href="#">Gallrey of the universe</a>
+
+</body>
+</html>
