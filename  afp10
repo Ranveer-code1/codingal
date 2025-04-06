@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming</title>
+    <style>
+        body{
+            background-color: rgb(171, 211, 211);
+        }
+h1{
+    font-family: fantasy;
+    color: rgb(0, 123, 255);
+    font-size: 100px;
+    text-align: center;
+
+}
+li{
+
+}
+li::first-letter{
+    font-size:200%;
+    color: rgb(0, 0, 0);
+}
+li{
+    color: rgb(41, 69, 44);
+}
+h2{
+    color: dodgerblue;
+}
+#a{
+    color: rgb(99, 97, 97);
+}
+a{
+    font-size: 20px;
+    text-transform: none;
+    color: rgb(44, 45, 45);
+}
+    </style>
+</head>
+<body>
+
+    
+    <h1>Gaming</h1>
+    
+    <h2>Popular games include:</h2>
+    <ol type="I">
+        <li>Fortnite</li>
+        <li>Roblox</li>
+        <li>Call of duty</li>
+        <li>Minecraft</li>
+        <li>Super Mario</li>
+    </ol>
+    <h2 id="a"> Some popular consoles include</h2>
+    <ol type="I"></ol>
+    <li>PlayStation</li>
+    <li>Xbox</li>
+    <li>Nintendo</li>  
+</ol>
+<a href="#">Contact Us</a><br>
+<a href="#">Add Information</a>
+</body>
+</html>
