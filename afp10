@@ -20,7 +20,7 @@ li{
 }
 li::first-letter{
     font-size:200%;
-    color: rgb(0, 0, 0);
+    color: rgb(2, 42, 242);
 }
 li{
     color: rgb(41, 69, 44);
@@ -36,6 +36,12 @@ a{
     text-transform: none;
     color: rgb(44, 45, 45);
 }
+a:hover{
+            color:darkcyan
+        }
+        li:hover{
+            color:rgb(0, 60, 255)
+        }
     </style>
 </head>
 <body>
