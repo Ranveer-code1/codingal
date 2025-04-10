@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F1 Top Teams</title>
+    <style>
+   .R{ border:5px solid blue;
+            border-radius: 10px;
+            width: 300px;
+            padding: 10px;
+            margin: 10px;
+            background-color: rgb(94, 10, 10);
+            float: left;
+
+        }
+        h1{
+text-align: center;
+        }
+        p{
+            text-align: justify;
+        }
+        .S{ border:5px solid blue;
+            border-radius: 10px;
+            width: 300px;
+            padding: 10px;
+            margin: 10px;
+            background-color: rgb(94, 10, 10);
+            float: left;
+
+        }
+        h1{
+text-align: center;
+        }
+        p{
+            text-align: justify;
+        }
+          
+    
+    </style>
+</head>
+<body>
+   <div class="R">
+        <h1>Ferrari</h1>
+        <center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0NEPx9Yp5ytdxLgfmGoP_Vrszxina42r6gw&s">
+        </center><p>For many, Ferrari and Formula 1 racing have become inseparable. The only team to have competed in every season since the world championship began, the Prancing Horse has grown from the humble dream of founder Enzo Ferrari to become one of the most iconic and recognised brands in the world. 
+        </p>
+   </div>
+        <div class="S">
+            <h1>McLaren</h1>
+            <center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoS5-MysLI2XqdDif5An_gp2SLhx6qvviuBQ&s">
+            </center><p>McLaren Racing Limited is a British motor racing team based at the McLaren Technology Centre in Woking, Surrey, England. The team is a subsidiary of the McLaren Group, which owns a majority of the team. McLaren is best known as a Formula One chassis constructor, the second-oldest active team and the second-most successful Formula One team after Ferrari, having won 191 races, 12 Drivers' Championships, and nine Constructors' Championships. 
+            </p>
+        </div>
+        <div class="S">
+            <h1>Red Bull</h1>
+            <center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlOg5yH5DHq7tKOWrBW3rfNwB5YbsqfpN-37XVfR4Tse3yNqPn3FShVZ9nVkdRMJL3-54&usqp=CAU"
+            </center><p>Red Bull Racing, currently competing as Oracle Red Bull Racing and also known simply as Red Bull or RBR, is a Formula One racing team, competing under an Austrian racing licence and based in the United Kingdom. It is one of two Formula One teams owned by conglomerate Red Bull GmbH, the other being Racing Bulls. The Red Bull Racing team has been managed by Christian Horner since its formation in 2005.
+            </p>
+        </div>
+        <div class="S">
+            <h1>Mercedes</h1>
+            <center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHNGFCy63vg_LStr77GeKj6wwNQE58row3Zg&s"
+            </center><p>Mercedes-Benz, a German luxury automotive brand of the Mercedes-Benz Group, has been involved in Formula One as both team owner and engine manufacturer for various periods since 1954. The current Mercedes-AMG Petronas F1 Team is based in Brackley, England, and holds a German racing licence.
+            </p>
+        </div>
+
+
+</body>
+</html>
