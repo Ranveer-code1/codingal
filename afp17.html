@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <link rel="stylesheet" href=
+
+    "https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src=
+     "https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+     </script>
+     <style>
+        body{
+            background-color: black;
+        }
+        .card{
+            background-color: yellow;
+        }
+        .display-3{
+            color:white;
+        }
+     </style>
+</head>
+<body>
+   <div class="container">
+    <h1 class="display-3">Customer profile</h1>
+    <div class="row">
+    <div class="col-6">
+    <div class="card"style="width:225px">
+        <img class="card-img-top"src="data:image/jpeg;base64,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">
+        <div class="card-body">
+            <center>
+            <h2 class="card-title">Ryan</h2>
+            <p class="card-text">I love coding</p>
+                <a href="#"class="btn btn-danger">Visit profile</a>
+            </center>
+        </div>
+    </div></div>
+    <div class="col-6">
+    <div class="card"style="width:225px">
+        <img class="card-img-top"src="data:image/jpeg;base64,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">
+        <div class="card-body">
+            <center>
+            <h2 class="card-title">Riley</h2>
+            <p class="card-text">My favorite passtime is Football</p>
+                <a href="#"class="btn btn-danger">Visit profile</a>
+            </center>
+        </div>
+    </div>
+    </div>
+    </div> <div class="row">
+    <div class="col-6">
+    <div class="card"style="width:225px">
+        <img class="card-img-top"src="data:image/jpeg;base64,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">
+        <div class="card-body">
+            <center>
+            <h2 class="card-title">Isla</h2>
+            <p class="card-text">I love to read</p>
+                <a href="#"class="btn btn-danger">Visit profile</a>
+            </center>
+        </div>
+    </div></div>
+    <div class="col-6">
+    <div class="card"style="width:225px">
+        <img class="card-img-top"src="data:image/jpeg;base64,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">
+        <div class="card-body">
+            <center>
+            <h2 class="card-title">Grace</h2>
+            <p class="card-text">I am a great coder</p>
+                <a href="#"class="btn btn-danger">Visit profile</a>
+            </center>
+        </div>
+    </div>
+    </div>
+    </div><br><br>
+    <center>
+    <div class="spinner-border text-danger">
+    </center>
+    <center>
+    <ul class="pagination">
+        <li class="page-item">
+            <a href="#" class="page-link">Previous</a>
+        </li>
+        <li class="page-item">
+            <a href="#" class="page-link">1</a>
+        </li>
+        <li class="page-item">
+            <a href="#" class="page-link">2</a>
+        </li>
+        <li class="page-item">
+            <a href="#" class="page-link">3</a>
+        </li>
+        <li class="page-item">
+            <a href="#" class="page-link">Next</a>
+        </li>
+    </ul>
+    </center>
+   </div>
+   </div>
+</body>
+</html>
