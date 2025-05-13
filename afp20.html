@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expressions</title>
+   <style>
+    body{
+        background-color: black;
+    }
+    #AFP{
+        color: white;
+        font-size: 30px;
+    }
+    button{
+        background-color:red;
+        font-size:20px;
+        font-family: monospace;
+    }
+   </style>
+</head>
+<body>
+    <p id="AFP">The answer of 72 multiplied by 399 is equal to</p>
+    <button onclick="afp1(72,399)">Click here</button>
+    
+    <script>
+        function afp1(a,b){
+            document.getElementById("AFP").innerHTML="The answer is "+a*b;
+        }
+    </script>
+</body>
+</html>
