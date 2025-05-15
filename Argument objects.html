@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arguments</title>
+</head>
+<body>
+    <h1>Arguments </h1>
+    <p>Argument objects are parameters passed to the functions</p>
+    <script>
+        function maximum() {
+            var I;
+            var Max=0;
+            for (I = 0; I < arguments.length; I++) {
+                
+               if(arguments[I]>Max){
+                Max=arguments[I];
+               } 
+            }
+            return Max;
+        }
+        document.write(maximum(6,7,6,6,4,64,6,5,56,4,5,4,54,5454646464,464747,7667937657694795))
+    </script>
+</body>
+</html>
