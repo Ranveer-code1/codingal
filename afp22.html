@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arguments</title>
+    <style>
+        body{
+            background-color:darkgray;
+            color: rgb(0, 0, 0);
+        }
+    </style>
+</head>
+<body>
+    <h1>Sum </h1>
+    <p>56+867+75656+8678687=</p>
+    <script>
+        function Sum() {
+            var I;
+            var sum=0;
+            for (I = 0; I < arguments.length; I++) {
+                sum=sum+arguments[I]
+              
+                
+            }
+            return sum;
+        }
+        document.write(Sum(56,867,75656,8678687))
+    </script>
+</body>
+</html>
