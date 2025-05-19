@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pops</title>
+    <style>
+        #a{
+            color: rgb(52, 81, 22);
+        }
+    </style>
+</head>
+<body>
+    <p id="a"></p>
+    <p id="b"></p>
+    <p id="c"></p>
+    <script>
+        var ranveer=["Ferrari F40","Lamborgini Countach","Jaguar F-type","Pagani Zonda"];
+        document.getElementById("a").innerHTML=ranveer.join(" # ");
+        document.getElementById("b").innerHTML=ranveer;
+        ranveer.pop();
+        document.getElementById("c").innerHTML=ranveer;
+    </script>
+</body>
+</html>
