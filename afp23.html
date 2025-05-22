@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AFP</title>
+    <style>
+        body{
+            font-family: fantasy;
+            background-color: black;
+            color: whitesmoke;
+        }
+    </style>
+</head>
+<body>
+    <h1>Races</h1>
+    <h1>
+    <p id="demo"></p>
+    <p id="ra"></p>
+    <p id="raa"></p>
+    <p>---------------------------------------------------------------</p>
+    <p id="a"></p>
+    <p id="c"></p>
+    </h1>
+    <script>
+        var ranveer=[
+                "Formula 1",
+                "Le Mans",
+                "Nascar"
+        ];
+        document.getElementById("demo").innerHTML=ranveer[0];
+        
+    
+        var ranveer=[
+                "Formula 1",
+                "Le Mans",
+                "Nascar"
+        ];
+        document.getElementById("ra").innerHTML=ranveer[1];
+        
+        var ranveer=[
+                "Formula 1",
+                "Le Mans",
+                "Nascar"
+        ];
+        document.getElementById("raa").innerHTML=ranveer[2];
+
+        document.getElementById("a").innerHTML=ranveer.join(" # ");
+        
+        ranveer.pop();
+        document.getElementById("c").innerHTML=ranveer;
+    </script>
+</body>
+</html>
