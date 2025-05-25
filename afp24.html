@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confidential Form</title>
+    <style>
+        #email{
+            border: 2.5px solid red;
+            padding:5px;
+            margin: 5px;
+        }
+        #msg {
+            color: red;
+            font-size: 20px;
+        }
+        #name{
+            border: 2.5px solid red;
+            padding:5px;
+            margin: 5px;
+        }
+        #pasword{
+            border: 2.5px solid red;
+            padding:5px;
+            margin: 5px;
+        }
+        body{
+            color: white;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="a"></h1>
+    <form onsubmit="return validate()">
+        <label>Name</label><br>
+        <input type="name"id="name" placeholder="Enter here"><br>
+        <label>Email</label><br>
+        <input type="name"id="email" placeholder="Enter here"><br>
+        <label>Select your gender</label><br>
+            <input type="radio"name="Gender">Male<br>
+            <input type="radio"name="Gender">Female<br>
+            <input type="radio"name="Gender">Other<br>
+            <label>Card Pin</label><br>
+            <input type="password" id="password" placeholder="Enter Here"><br><br>
+        <div id="msg"></div>
+        <button type="submit">Submit Email</button>
+    </form>
+    <script src="afp24.js">
+    </script>
+    
+</body>
+</html>
