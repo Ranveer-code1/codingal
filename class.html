@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class</title>
+</head>
+<body>
+    <script>
+        class person {
+            constructor(name,age){
+                this.name=name;
+                this.age=age;
+
+            }
+            greet(){
+                document.write("My name is ",this.name);
+                document.write(", I am ",this.age," years old")
+            }
+        }
+        var obj=new person("Ranveer",12);
+        obj.greet()
+
+    </script>
+</body>
+</html>
