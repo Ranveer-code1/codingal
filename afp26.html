@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            AFP
+        </title>
+       <style>
+        body{
+            color:rgb(255, 255, 255);
+            background-color: black;
+            text-align: center;
+            font-family: monospace;
+            font-size: 45px;
+        }
+       </style>
+    </head>
+<body>
+
+<div id="d"></div>
+
+<script>
+class Car {
+  constructor(brand) {
+    this.brand = brand;
+  }
+
+  display() {
+    document.getElementById("d").innerHTML = "My car is a " + this.brand;
+  }
+}
+
+class Model extends Car {
+  constructor(brand, model) {
+    super(brand);
+    this.model = model;
+  }
+
+  displayAll() {
+    this.display();  // Calls parent method
+    document.getElementById("d").innerHTML += "<br>The model is a" + this.model;
+  }
+}
+
+var obj = new Model("Jaguar", " F-type");
+obj.displayAll();
+</script>
+
+</body>
+</html>
