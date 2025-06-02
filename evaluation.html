@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eval</title>
+</head>
+<body>
+    <p id="ranveer"></p>
+    <button onclick="evaluation()">DO NOT PRESS</button>
+    <script>
+        function evaluation(){
+            var a=780594
+            var b=7502839502
+            var c=eval("b-a")+"<br>";
+            var d=eval("b*a")+"<br>";
+            var e=eval("b%a")+"<br>";
+            var result=c+d+e
+            document.getElementById("ranveer").innerHTML=result
+        }
+
+    </script>
+</body>
+</html>
