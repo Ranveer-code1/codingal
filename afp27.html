@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        body{
+            color: white;
+            background-color: black;
+        }
+        button{
+            color: rgb(255, 255, 255);
+            background-color: gray;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<html>
+    <body>
+        <h1 id="ranveer"></h1>
+        <h1 id="ranveer"></h1>
+        <button onclick="ascending()">Ascending</button>
+        <button onclick="decending()">Decending</button>
+        <script>
+            var R=[234,6543,46890,5317089]
+            function array(R){}
+            var S=R.map(array)
+            document.getElementById("ranveer").innerHTML=S
+            
+        document.getElementById("ranveer").innerHTML=R
+        function ascending(){
+            R.sort(function(a,b){return a-b})
+            document.getElementById("ranveer").innerHTML=R
+        }
+        function decending(){
+            R.sort(function(a,b){return b-a})
+            document.getElementById("ranveer").innerHTML=R
+        }
+        </script>
+    </body>
+</html>
