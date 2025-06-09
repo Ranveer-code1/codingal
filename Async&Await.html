@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async&Await</title>
+</head>
+<body>
+    <p id="ra"></p>
+    <script>
+        async function fun(a,b){
+            var rv=await a*b;
+            display(rv)
+            
+        }
+        function display(some){
+            document.getElementById("ra").innerHTML=some
+        }
+        fun(432,6527489)
+    </script>
+</body>
+</html>
