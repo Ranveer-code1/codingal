@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promises</title>
+</head>
+<body>
+    <script>
+        let ranveer=new Promise((resolve,reject)=>{
+            var a=false
+            if(a){
+                resolve("Data is available")
+            }
+            else{
+                reject("Data is not available")
+            }
+
+            
+        });
+        ranveer.then(result=> document.write(result))
+        .catch(error=>document.write(error))
+    </script>
+    
+</body>
+</html>
