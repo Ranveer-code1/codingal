@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>asyncronous</title>
+</head>
+<body>
+    <h1 id="ra"></h1>
+    <script>
+        function consumer(a){
+            document.getElementById("ra").innerHTML=a;
+
+        }
+        function producer(a,b,mycallback){
+            var c=a*b
+            mycallback(c)
+
+        }
+        producer(168754547,2635874,consumer)
+    </script>
+</body>
+</html>
