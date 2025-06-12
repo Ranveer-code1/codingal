@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+</head>
+<body>
+    <input type="number" id="rv" min="100" max="300" required><br><br>
+    <button onclick="b()">Submit</button>
+    <p id="a"></p>
+    <script>
+        function b(){
+            var c=document.getElementById("rv");
+            if(!c.checkValidity()){
+                document.getElementById("a").innerHTML=c.validationMessage;
+                
+            }
+            else{
+                document.getElementById("a").innerHTML="Input successful";
+            }
+        }
+    </script>
+</body>
+</html>
