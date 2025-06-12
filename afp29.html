@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <style>
+    h1{
+        text-align: center;
+        font-family: monospace;
+        font-size: 50px;
+    }
+    body{
+        background-color: black;
+        color: whitesmoke;
+
+    }
+   </style>
+</head>
+<body>
+    <h1>Your code is:</h1>
+    <h1 id="ranveer"></h1>
+    <p>Enter this code in the device given to you.</p>
+    <script>
+        function consumer(a){
+            document.getElementById("ranveer").innerHTML=a;
+
+        }
+        function producer(a,b,mycallback){
+            var c=a*b
+            mycallback(c)
+
+        }
+        producer(168754547,2635874,consumer)
+    </script>
+</body>
+</html>
