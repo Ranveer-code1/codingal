@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+ <style>
+    body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color:black;
+
+}
+#container{
+    width: 1000px;
+    height: 550px;
+   
+    margin:20px auto;
+
+}
+#main-box{
+    width: 400px;
+    height: 550px;
+    background-color: rgb(79, 79, 79);
+    margin: 0px auto;
+    top:20px;
+    position:relative;
+    border-radius: 10px;
+
+}
+#keyboard{
+    height:500px;
+
+}
+.number,.opperator,.enter,.clear{
+    width:100px;
+    height:50px;
+    margin:15px;
+    float:left;
+    font-size: 15px;
+    background-color: lightgrey;
+}
+form{
+    font-size: 30px;
+}
+input{
+    font-size: 25px;
+
+}
+ </style>
+</head>
+<body>
+    <div id="container">
+        <div id="main-box">
+            <div id="keyboard">
+                 <button class="opperator" id="clear"></button>
+                 <button class="opperator" id="clear"></button>
+                
+                 <button class="number" id="7">7</button>
+                 <button class="number" id="8">8</button>
+                 <button class="number" id="9">9</button>
+                
+                 <button class="number" id="4">4</button>
+                 <button class="number" id="5">5</button>
+                 <button class="number" id="6">6</button>
+                
+                 <button class="number" id="1">1</button>
+                 <button class="number" id="2">2</button>
+                 <button class="number" id="3">3</button>
+                
+                 
+                 <button class="number" id="0">0</button>
+                 <button class="opperator" id="C">CLEAR</button>
+                 <button class="opperator" id="backspace">BACKSPACE</button>
+                
+                 <button class="opperator" id="enter">SEND</button>
+
+                 <form>
+                
+                    <input type="Number" placeholder="Enter ammount"><br> 
+                    <input type="Name" placeholder="Enter reciveing name"><br> 
+                </form>
+            </div>
+            
+        </div>
+    </div>
+    
+</body>
+</html>
