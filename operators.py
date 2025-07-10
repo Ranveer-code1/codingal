@@ -1,0 +1,15 @@
+a=234
+b=607
+print(a+b)
+print(a-b)
+print(a*b)
+print(b/a)
+print(b//a)
+print(b%a)
+print(a**2)
+print(a==b)
+print(a!=b)
+print(a>b)
+print(a<b)
+print(a>=b)
+print(a<=b)
