@@ -1,0 +1,32 @@
+import turtle
+turtle.Screen().bgcolor("darkred")
+screen=turtle.Screen()
+turtle.title("Square-1")
+a=turtle.Turtle()
+
+a.forward(100)
+a.forward(100)
+a.right(90)
+a.forward(100)
+a.right(90)
+a.forward(100)
+a.forward(100)
+a.right(90)
+a.forward(100)
+a.right(90)
+a.penup()
+a.left(90)
+a.forward(100)
+a.pendown()
+for i in range(3):
+    a.forward(100)
+    a.left(120)
+a.penup()
+a.left(90)
+a.forward(100)
+a.pendown()
+for i in range(6):
+    a.forward(100)
+    a.left(60)
+
+turtle.done()
