@@ -1,0 +1,12 @@
+a={"Name":"Ranveer","Age":12,"Grade":6}
+print(a)
+print(len(a))
+print(type(a))
+print(a.keys())
+print(a.values())
+print(a.items())
+print(a["Age"])
+a.update({"Roll_No.":12438907})
+print(a)
+a.pop("Roll_No.")
+print(a)
