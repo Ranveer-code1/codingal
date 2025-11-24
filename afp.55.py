@@ -1,0 +1,9 @@
+a=1
+b=0
+c=1
+d=a&b
+e=b|c
+f=b&c
+g=e&f
+q=g|d
+print(q)
