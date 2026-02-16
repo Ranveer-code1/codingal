@@ -16,5 +16,8 @@ select * from restaurant1;
 select DISTINCT cuisine from restaurant1;
 select DISTINCT name from restaurant1;
 select * from restaurant1 where cuisine="Italian";
-select * from restaurant1 where review>4
-select 
+select * from restaurant1 where review>4;
+select * from restaurant1 where cuisine="Italian" and price=25;
+select * from restaurant1 where name like "%Miine%";
+select * from restaurant1 where name in ("Miine","Rocket");
+select * from restaurant1 order by review desc limit 2;
